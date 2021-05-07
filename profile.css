@@ -1,0 +1,292 @@
+*{}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Palatino, serif;
+}
+
+/* start-navbar */
+.header {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    margin-top: -50px;
+    background-color: #ffffff;
+}
+
+.container-nav {
+
+    width: 80%;
+    margin: 0 10%;
+    color: rgb(14, 13, 13);
+    display: inline-flex;
+    height: 60px;
+}
+
+
+.actions-items {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #222222;
+    font-size: 20px;
+
+}
+
+.actions-items:hover {
+    text-decoration: none;
+    color: #000000;
+}
+/*
+.ProfileImage {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 2px solid #222222;
+    overflow: hidden;
+}*/
+
+.ProfileImage img {
+    width: 25px;
+    height: 22px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    
+}
+
+.container {
+
+    width: 80%;
+    margin: 0 10%;
+    color: rgb(14, 13, 13);
+    display: inline-flex;
+    height: 60px;
+
+}
+
+.container .label h1 {
+    /* font-size: 30px; */
+    padding-left: 10px;
+
+}
+
+.label {
+    margin-left: 200px;
+}
+
+.container .label {
+    width: 25%;
+    float: left;
+    margin-right: 75px;
+    display: flex;
+
+}
+.lable h1{
+    font-size: 30px;
+}
+
+.container .search {
+    float: left;
+    margin-top: 6px;
+    margin-left: 35px;
+    display: flex;
+}
+
+.container .actions {
+
+    margin-top: 20px;
+    float: right;
+    margin-left: 25px;
+    display: flex;
+
+}
+
+.actions {
+    margin-right: 200px;
+}
+
+img {
+
+    margin-left: 15px;
+}
+
+
+.container .ProfileImage {
+    border-radius: 50%;
+}
+
+input[type=text].instaSearch {
+    font-family: proxima-nove, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: .5px;
+    height: 30px;
+    text-align: center;
+    border: 0.5px solid rgba(128, 128, 128, 0.452);
+    background: #fafafa;
+    background-image: url("./images/glass.jpg");
+    background-repeat: no-repeat;
+    background-size: 11px 11px;
+    background-position: 83px 11px;
+    outline: none;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: solid rgba(128, 128, 128, 0.452);
+}
+
+input[type=text]:focus.instaSearch {
+    text-align: left;
+    padding-left: 30px;
+    background: #ffffff;
+    background-image: url("./images/glass.jpg");
+    background-repeat: no-repeat;
+    background-size: 11px 11px;
+    background-position: 15px 11px;
+    color: #000;
+
+}
+
+
+
+.allprofle {
+    justify-content: center;
+    margin: 50px auto;
+    margin-left: 30%;
+    
+}
+
+.oneline {
+    display: flex;
+
+}
+
+.name_profile {
+    display: flex;
+
+}
+
+.name_profile h4 {
+    margin-top: 50px;
+    margin-left: 85px;
+    font-size: 25px;
+}
+
+.name_profile p {
+    margin-top: 50px;
+    margin-left: 20px;
+    border: 1px solid rgb(194, 193, 193);
+    padding: 8px;
+
+    width: 100px;
+    height: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(177, 122, 122);
+    padding: 4px;
+    margin-top: 30px;
+}
+
+
+.followers .follow {
+    display: flex;
+    margin-left: 200px;
+    margin-top: -120px;
+    font-size: 19px;
+}
+
+.follow h5 {
+    margin-left: 15px;
+}
+
+.user {
+    margin-left: 260px;
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.bio p {
+    margin-left: 260px;
+}
+
+.allactive .active {
+    display: flex;
+    flex-direction: row;
+}
+
+.active {
+    margin-left: 35%;
+}
+
+.active p {
+    margin-left: 80px;
+    color: rgb(141, 138, 138);
+}
+
+.active p:hover {
+    color: black;
+}
+
+.line {
+    width: 50%;
+    height: 1px;
+    background-color: rgb(199, 194, 194);
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.bost_profile img {
+    border-radius: 3px;
+    margin-left: 25%;
+    margin-top: 5px;
+}
+
+.footer_pro {
+    display: flex;
+    font-size: 14px;
+    margin-left: 33%;
+
+}
+
+.footer_pro p {
+    margin-left: 18px;
+    margin-top: 25px;
+    color: rgb(165, 163, 163);
+}
+
+.anether {
+    display: flex;
+    font-size: 14px;
+    margin-left: 40%;
+}
+
+.anether p {
+    margin-left: 18px;
+    margin-top: 25px;
+    color: rgb(165, 163, 163);
+}
+
+.read-more {
+    color: #6d6d6d !important;
+    text-decoration: none;
+}
